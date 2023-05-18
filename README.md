@@ -25,7 +25,6 @@ get props connections of `RED` object on NodeRed Installations
 - [NodeRed](https://nodered.org/) - Low-code programming for event-driven applications
 
 
-
 > if you need support please write an e-mail to [support@apserial.it](mailto:support@apserial.it)
 >
 >
