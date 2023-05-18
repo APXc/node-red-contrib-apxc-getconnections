@@ -9,7 +9,7 @@
   },
   "author": "Alessio Pellizzaro <alessio.pellizzaro@apserial.it>",
   "license": "MPL-2.0",
-  "keywords": ["APXC" ,"open", "connections" , "BugFix" ],
+  "keywords": ["node-red", "APXC" ,"open", "connections" , "BugFix" ],
   "homepage": "https://github.com/APXc/node-red-contrib-apxc-getconnections#readme",
   "repository": {
     "type": "git",
