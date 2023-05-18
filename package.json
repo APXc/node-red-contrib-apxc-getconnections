@@ -1,15 +1,21 @@
 {
   "name": "@apxc/node-red-contrib-apxc-getconnections",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "get opened connections on NodeRed Installations",
   "main": "/nodes/getConnections.js",
   "scripts": {
     "update": "npm pack && mv node-red-contrib-apxc-getconnections-$npm_package_version.tgz ./data && cd data && npm i node-red-contrib-apxc-getconnections-$npm_package_version.tgz && docker-compose restart",
-    "win" : "start winupd.bat"
+    "win": "start winupd.bat"
   },
   "author": "Alessio Pellizzaro <alessio.pellizzaro@apserial.it>",
   "license": "MPL-2.0",
-  "keywords": ["node-red", "APXC" ,"open", "connections" , "BugFix" ],
+  "keywords": [
+    "node-red",
+    "APXC",
+    "open",
+    "connections",
+    "BugFix"
+  ],
   "homepage": "https://github.com/APXc/node-red-contrib-apxc-getconnections#readme",
   "repository": {
     "type": "git",
@@ -22,10 +28,10 @@
   "node-red": {
     "version": ">=2.0.0",
     "nodes": {
-      "getconnections" : "/nodes/getConnections.js"
+      "getconnections": "/nodes/getConnections.js"
     }
   },
-   "engines": {
+  "engines": {
     "node": ">=16.0.0"
   },
   "publishConfig": {
