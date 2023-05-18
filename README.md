@@ -10,9 +10,6 @@ get props connections of `RED` object on NodeRed Installations
 >
 >
 
-### Input
-
-: payload (string | buffer) :  the payload of the message.
 
 ### Outputs
 
